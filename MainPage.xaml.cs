@@ -93,7 +93,7 @@ namespace coffee_maui
             OnPropertyChanged(nameof(TextoCapuchino));
             OnPropertyChanged(nameof(LeerMasTexto));
         }
-
+        //
         // Implementación de INotifyPropertyChanged
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged(string propertyName)
